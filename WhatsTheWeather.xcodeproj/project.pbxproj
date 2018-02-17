@@ -14,6 +14,7 @@
 		AC9DEA9F2038603500DC8FFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9DEA9D2038603500DC8FFE /* LaunchScreen.storyboard */; };
 		AC9DEAAA2038603500DC8FFE /* WhatsTheWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9DEAA92038603500DC8FFE /* WhatsTheWeatherTests.swift */; };
 		AC9DEAB52038603500DC8FFE /* WhatsTheWeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9DEAB42038603500DC8FFE /* WhatsTheWeatherUITests.swift */; };
+		AC9DEAC52038683800DC8FFE /* sky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC9DEAC42038683800DC8FFE /* sky.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AC9DEAB02038603500DC8FFE /* WhatsTheWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsTheWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC9DEAB42038603500DC8FFE /* WhatsTheWeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsTheWeatherUITests.swift; sourceTree = "<group>"; };
 		AC9DEAB62038603500DC8FFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC9DEAC42038683800DC8FFE /* sky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sky.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				AC9DEA982038603500DC8FFE /* Main.storyboard */,
 				AC9DEA9B2038603500DC8FFE /* Assets.xcassets */,
 				AC9DEA9D2038603500DC8FFE /* LaunchScreen.storyboard */,
+				AC9DEAC42038683800DC8FFE /* sky.jpg */,
 				AC9DEAA02038603500DC8FFE /* Info.plist */,
 			);
 			path = WhatsTheWeather;
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC9DEA9F2038603500DC8FFE /* LaunchScreen.storyboard in Resources */,
+				AC9DEAC52038683800DC8FFE /* sky.jpg in Resources */,
 				AC9DEA9C2038603500DC8FFE /* Assets.xcassets in Resources */,
 				AC9DEA9A2038603500DC8FFE /* Main.storyboard in Resources */,
 			);
