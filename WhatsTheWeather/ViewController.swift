@@ -27,9 +27,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
             displayLabel.text = "Please enter a city."
             displayLabel.textColor = UIColor.red
         }
-        //else
         else{
-            displayLabel.text = ""
             displayLabel.textColor = UIColor.white
             
             if let url = URL(string: urlPart1 + input.replacingOccurrences(of: " ", with: "-") + urlPart2){
@@ -41,6 +39,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
                     var weatherMessage = ""
                     var dataStr = NSString(string: "")
                     
+                    //if there was an error
                     if error != nil {
                         print(error)
                     }
@@ -68,12 +67,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
                     
                     DispatchQueue.main.sync(execute: {
                         self.displayLabel.text = weatherMessage
-                        self.displayLabel.textColor = UIColor.red
                     })
                 }
-                
                 task.resume()
-                
             }
             
         }
